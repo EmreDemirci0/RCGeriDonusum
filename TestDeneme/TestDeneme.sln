@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDeneme", "TestDeneme\TestDeneme.csproj", "{4D95DBF4-105E-4CF9-9E39-1C3A12D0C4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDenemeTests", "TestDenemeTests\TestDenemeTests.csproj", "{FFF89B26-BF10-43E0-97A4-ADCB70768C52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D95DBF4-105E-4CF9-9E39-1C3A12D0C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D95DBF4-105E-4CF9-9E39-1C3A12D0C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D95DBF4-105E-4CF9-9E39-1C3A12D0C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D95DBF4-105E-4CF9-9E39-1C3A12D0C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF89B26-BF10-43E0-97A4-ADCB70768C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF89B26-BF10-43E0-97A4-ADCB70768C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF89B26-BF10-43E0-97A4-ADCB70768C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF89B26-BF10-43E0-97A4-ADCB70768C52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAF67262-E3D3-46EF-9FF4-30034C64ED76}
+	EndGlobalSection
+EndGlobal

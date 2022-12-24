@@ -1,0 +1,24 @@
+extends layouts/General-layout.pug 
+block content
+  section.vh-100.bg-dark 
+    .container.py-5.h-100
+      .row.d-flex.justify-content-center.align-items-center.h-100
+        .col-12.col-md-8.col-lg-6.col-xl-5
+          .card.shadow-2-strong(style='border-radius: 1rem')
+            .card-body.p-5.text-center
+              h3.mb-5.mainHeader Sign in
+              form(action='/admin/login' method="POST")
+                .form-outline.mb-4
+                  label.form-label.mb-2.FontStuff Email
+                  input.form-control.a.form-control-lg.inputs.emailinput(  type='email' name='emails' placeholder='Enter Mail')
+                .form-outline.mb-4
+                  label.form-label.mb-2.FontStuff(for='typePasswordX-2') Password
+                  input#typePasswordX-2.form-control.form-control-lg.inputs.pwinput(name='passwords' type='password' placeholder='Enter Password')
+                p.wrongPassword.text-danger#wrongPassworda #{wrong}
+                button.btn.btn-dark.btn-lg.btn-block.w-100.justify-content-between.myButton(type='submit')
+                  | Login
+              hr.my-4
+              .d-flex.justify-content-around.align-items-center.mb
+                a.links.text-dark(href='/user/login') User Login
+  script(src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js' integrity='sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3' crossorigin='anonymous')
+  script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js' integrity='sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V' crossorigin='anonymous')
